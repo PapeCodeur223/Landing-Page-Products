@@ -1,0 +1,26 @@
+body{
+    font-size: 18px;
+}
+
+.btn-outline-primary{
+    border-radius: 70px;
+}
+
+
+@media (400px <= width <= 768px){
+    .bg-light{
+        width: 400px;
+    }
+    .bg-light .row {
+        margin: 0 auto !important;
+    }
+    .img-fluid{
+        width: 250px !important;
+        height: 250px !important;
+        
+    }
+    .others-size .img-fluid{
+        width: 200% !important;
+        height: auto !important;
+    }
+}
